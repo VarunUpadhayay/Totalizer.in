@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contact us</title>
+	<link rel="icon" href="3.png" type="image/icon type">
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Flamenco" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=David+Libre&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="contact.css">
+	<link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+</head>
+<body>
+	<nav class="navbar navbar-expand-sm  navbar-dark  ">
+	<div class="container">
+<a href="index.html">
+<img src="3.png" class="logo">
+</a>
+		<button class="navbar-toggler " data-toggle="collapse" data-target="#nv"  >
+			<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="nv">
+     <ul class="navbar-nav ml-auto text-left animated slideInDown li2">
+        <li class="nav-items ">
+           <a href="index.html" class="nav-link text-white text-center li3 ">HOME</a>
+        </li>
+		<li class="nav-items ">
+		   <a href="about.html" class="nav-link text-white  text-center li3 ">ABOUT US</a>
+		           
+		    
+  
+  
+        </li>
+         <li class="nav-items">
+           <a href="contact.html" class="nav-link text-white text-center li3 li4" >CONTACT US</a>
+        </li>
+
+
+      </ul>
+	  </div>
+	  
+	  </div>
+
+
+</nav>
+
+
+
+	<div class="container">
+		<!-- <h3 class="text-white text-uppercase text-left ">Get in touch</h3>
+		 <p class="text-white">We cheris all interactions</p> -->
+
+		
+			<!-- <div class="col-lg-5 col-md-6 col-24 ml-5 ">
+				<img src="45.png" class="img1 animated slideInLeft">
+				
+
+			</div> -->
+
+			<div  class="container co ">
+				 <form class=" p-4  animated slideInLeft " >
+ 
+ <div class="form-group ">
+	
+	
+    <input type="text" id="user" placeholder=" First name" class="form-control " >
+
+</div>
+
+<div class="form-group">
+	
+    <input type="text" id="srnm" placeholder=" Lastname" class="form-control p-3">
+</div>
+
+
+<div class="form-group">
+	
+   <input type="text" id="mail" placeholder="What's your email?" class="form-control p-3">
+</div>
+
+
+
+<div class="form-group">
+	
+    <textarea type="text" rows="4" cols="25" required placeholder=" Your questions.."class="form-control control p-3"></textarea>
+</div>
+
+
+
+<a href="#" class="btn btn-lg btn-danger button1" onclick="submit()">SEND MESSAGE</a>
+			 </form>
+
+			</div>
+			
+			
+
+		
+		
+
+	</div>
+	
+
+<script >
+	
+
+function submit()
+{   var user = document.getElementById('user').value;
+	var srnm = document.getElementById('srnm').value;
+	var mail = document.getElementById('mail').value;
+
+	if (user === "" || srnm ==="" || mail === "" ) {
+    alert("Please enter your details");
+    return;
+  }
+}
+
+
+</script>
+
+
+
+
+
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</body>
+</html>

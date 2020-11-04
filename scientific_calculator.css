@@ -1,0 +1,173 @@
+* {
+ 
+ /* margin: 5px;*/
+  text-align: center;
+}
+
+li
+{
+  margin-right: 20px;
+  font-size: 18px;
+  font-family: 'Flamenco', cursive;
+
+}
+
+  li:hover
+  {
+    border-bottom: 2px solid #7FFF00;
+
+  }
+
+ 
+.logo{
+  height: 80px;
+  width: auto;
+  float: left;
+  margin-top: 20px;
+   transition: transform 0.5s; 
+
+  
+}
+.logo:hover
+{
+  transform: translateY(-5px);
+
+}
+
+/*<!---------------------------------------------------------------calculator------------------------------>*/
+
+body {
+background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url('65.jpg');
+ background-size: cover;
+ width: 100%;  height: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  
+}
+.calculator {
+  width: 310px;
+  height:390px;
+  background-color: white;
+  /*box-shadow: 0px 0px 0px 10px #666;*/
+  border: 8px solid  black ;
+  border-radius: 15px;
+  margin:5% 36%;
+
+
+ }
+#display {
+  width: 300px;
+  height: 40px;
+  text-align: right;
+  background-color: black;
+  border: 3px solid white;
+
+  font-size: 18px;
+  left: 2px;
+  top: 2px;
+  color: #7fff00;
+  
+  /*border-radius: 200px;*/
+ 
+
+}
+
+
+
+.btnTop{
+  color: white;
+  /*background-color: #6f6f6f;*/
+  font-size: 14px;
+  margin: auto;
+  width: 50px;
+  height: 25px;
+  padding-top: 0;
+  transition: transform 0.5s; 
+ 
+}
+.btnTop:hover
+{
+  color: white;
+  transform: translateY(-5px);
+}
+.btnNum {
+  color: white;
+  background-color: black;
+  font-size: 14px;
+  margin: auto;
+  width: 50px;
+  height: 25px;
+   padding-top: 0;
+    transition: transform 0.5s; 
+    
+}
+.btnNum:hover
+{
+  color: white;
+  transform: translateY(-5px);
+}
+
+.btnMath {
+  color: white;
+ /* background-color: #ff4561;*/
+  font-size: 14px;
+  margin: auto;
+  width: 50px;
+  height: 25px;
+   padding-top: 0;
+   transition: transform 0.5s; 
+    
+}
+.btnMath:hover
+{
+  color: white;
+  transform: translateY(-5px);
+}
+.btnOpps {
+  color: white;
+  /*background-color: #ff9933;*/
+  font-size: 14px;
+  margin: auto;
+  width: 50px;
+  height: 25px;
+   padding-top: 0;
+   transition: transform 0.5s; 
+   
+}
+.btnOpps:hover
+{
+  color: white;
+  transform: translateY(-5px);
+}
+
+header
+{
+   margin-left: 0%;
+}
+@media only screen and (max-width: 768px)
+{
+  .calculator
+{
+  margin-left: 80px!important;
+  margin-top: 80px!important;
+
+}
+}
+
+
+
+@media only screen and (max-width: 480px)
+{
+
+.calculator
+{
+  margin-left: 35px!important;
+  margin-top: 80px!important;
+
+}
+body
+{
+  height:850px;
+}
+
+}
