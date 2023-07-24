@@ -29,10 +29,10 @@ All our calculators are developed in-house by our team of experts. This allows u
 
 Totalizer offers a wide range of calculator categories to cater to various needs:
 
--Financial Calculators: Plan your finances, calculate loans, investments, and more.
--Fitness & Health Calculators: Monitor your health, track fitness goals, and maintain a healthy lifestyle.
--Math Calculators: Simplify complex mathematical calculations with ease.
--Other Calculators: Discover an assortment of specialized calculators for unique purposes.
+- Financial Calculators: Plan your finances, calculate loans, investments, and more.
+- Fitness & Health Calculators: Monitor your health, track fitness goals, and maintain a healthy lifestyle.
+- Math Calculators: Simplify complex mathematical calculations with ease.
+- Other Calculators: Discover an assortment of specialized calculators for unique purposes.
 
 ## Get Involved
 
